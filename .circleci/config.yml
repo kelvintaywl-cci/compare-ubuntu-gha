@@ -8,6 +8,7 @@ jobs:
     steps:
       - run: sudo apt-get update
       - run: sudo apt-get install python3.10
+      - run: sudo apt-get install python-pip
 
 workflows:
   main:
